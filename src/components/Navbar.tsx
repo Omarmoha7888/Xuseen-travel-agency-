@@ -98,41 +98,6 @@ export const Navbar: React.FC<NavbarProps> = ({
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-40 w-full transition-all duration-300">
-        {/* Top Luxury Announcement & Contact Bar (Desktop) */}
-        <div className="bg-[#080808] border-b border-[#D4AF37]/15 text-xs text-gray-400 py-1.5 px-4 hidden md:block">
-          <div className="max-w-7xl mx-auto flex items-center justify-between">
-            <div className="flex items-center gap-6">
-              <a href="tel:+252612483838" className="flex items-center gap-1.5 hover:text-[#D4AF37] transition-colors">
-                <Phone className="w-3.5 h-3.5 text-[#D4AF37]" />
-                <span dir="ltr">+252 61 2483838</span>
-              </a>
-              <a href="tel:+252612141414" className="flex items-center gap-1.5 hover:text-[#D4AF37] transition-colors">
-                <Phone className="w-3.5 h-3.5 text-[#D4AF37]" />
-                <span dir="ltr">+252 61 2141414</span>
-              </a>
-              <a href="mailto:balcadtravel@gmail.com" className="flex items-center gap-1.5 hover:text-[#D4AF37] transition-colors">
-                <Mail className="w-3.5 h-3.5 text-[#D4AF37]" />
-                <span>balcadtravel@gmail.com</span>
-              </a>
-            </div>
-
-            <div className="flex items-center gap-4">
-              <div className="flex items-center gap-1.5 text-gray-400">
-                <Clock className="w-3.5 h-3.5 text-[#D4AF37]" />
-                <span>Sat - Thu: 8:00 AM - 8:30 PM (EAT)</span>
-              </div>
-              <div className="h-3 w-px bg-gray-800" />
-              <button 
-                onClick={onTrackRequest}
-                className="text-[#D4AF37] hover:underline flex items-center gap-1 font-medium"
-              >
-                <Compass className="w-3.5 h-3.5" />
-                <span>{t.nav.trackRequest}</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
         {/* Main Navigation Bar */}
         <nav className={`w-full transition-all duration-300 ${
           isScrolled 
