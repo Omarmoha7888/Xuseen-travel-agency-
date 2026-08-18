@@ -27,10 +27,10 @@ export const Footer: React.FC<FooterProps> = ({
   };
 
   return (
-    <footer className="bg-[#080808] border-t border-[#D4AF37]/20 text-gray-400 text-xs relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12">
+    <footer className="bg-[#080808] border-t border-[#D4AF37]/20 text-gray-400 text-xs relative pb-24 lg:pb-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16">
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-white/10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-10 pb-10 sm:pb-12 border-b border-white/10">
           
           {/* Col 1: Brand Profile */}
           <div className="lg:col-span-2 space-y-4">
@@ -47,10 +47,10 @@ export const Footer: React.FC<FooterProps> = ({
               </div>
               <div className="flex items-center gap-2 text-gray-300">
                 <Mail className="w-4 h-4 text-[#D4AF37] shrink-0" />
-                <span>balcadtravel@gmail.com</span>
+                <span className="break-all">balcadtravel@gmail.com</span>
               </div>
-              <div className="flex items-center gap-2 text-gray-300">
-                <MapPin className="w-4 h-4 text-[#D4AF37] shrink-0" />
+              <div className="flex items-start gap-2 text-gray-300">
+                <MapPin className="w-4 h-4 text-[#D4AF37] shrink-0 mt-0.5" />
                 <span>KM4 Business Center, Maka Al-Mukarama Road, Mogadishu, Somalia</span>
               </div>
             </div>
@@ -58,7 +58,7 @@ export const Footer: React.FC<FooterProps> = ({
 
           {/* Col 2: Quick Links */}
           <div className="space-y-3">
-            <h4 className="font-cinzel text-sm font-bold text-white uppercase tracking-wider">
+            <h4 className="font-cinzel text-xs sm:text-sm font-bold text-white uppercase tracking-wider">
               {t.footer.quickLinks}
             </h4>
             <ul className="space-y-2 text-xs">
@@ -97,7 +97,7 @@ export const Footer: React.FC<FooterProps> = ({
 
           {/* Col 3: Popular Services */}
           <div className="space-y-3">
-            <h4 className="font-cinzel text-sm font-bold text-white uppercase tracking-wider">
+            <h4 className="font-cinzel text-xs sm:text-sm font-bold text-white uppercase tracking-wider">
               {t.footer.servicesTitle}
             </h4>
             <ul className="space-y-2 text-xs">
@@ -154,7 +154,7 @@ export const Footer: React.FC<FooterProps> = ({
 
           {/* Col 4: Newsletter / Instant Booking CTA */}
           <div className="space-y-3">
-            <h4 className="font-cinzel text-sm font-bold text-white uppercase tracking-wider">
+            <h4 className="font-cinzel text-xs sm:text-sm font-bold text-white uppercase tracking-wider">
               {t.footer.newsletterTitle}
             </h4>
             <p className="text-xs text-gray-400">
@@ -163,27 +163,27 @@ export const Footer: React.FC<FooterProps> = ({
             
             <button
               onClick={() => onRequestService()}
-              className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-[#D4AF37] to-[#B8860B] text-black font-bold text-xs shadow-lg shadow-[#D4AF37]/20 hover:scale-[1.02] transition-transform flex items-center justify-center gap-1.5"
+              className="w-full min-h-[44px] py-3 px-4 rounded-xl bg-gradient-to-r from-[#D4AF37] to-[#B8860B] text-black font-bold text-xs shadow-lg shadow-[#D4AF37]/20 active:scale-95 transition-transform flex items-center justify-center gap-1.5 touch-manipulation"
             >
               <Plane className="w-3.5 h-3.5" />
               <span>{t.nav.requestService}</span>
             </button>
 
             <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-[11px] text-gray-400">
-              ✓ No online fees or hidden costs. Direct travel consultation.
+              ✓ Direct inquiry system. No online payment required.
             </div>
           </div>
         </div>
 
         {/* Bottom Copyright & Back to top */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-gray-500">
-          <div className="text-center sm:text-left">
+        <div className="pt-6 sm:pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-gray-500">
+          <div className="text-center sm:text-left text-[11px] sm:text-xs">
             © {new Date().getFullYear()} Balcad Travel Agency. All rights reserved. | {t.footer.allRights}
           </div>
 
           <button
             onClick={scrollToTop}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-[#D4AF37]/15 hover:text-[#D4AF37] text-gray-400 transition-colors"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-[#D4AF37]/15 hover:text-[#D4AF37] text-gray-400 transition-colors touch-manipulation"
           >
             <span>Back to Top</span>
             <ArrowUp className="w-3.5 h-3.5" />

@@ -11,6 +11,7 @@ const PORT = 3000;
 
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
+app.use(express.static(path.join(process.cwd(), 'public')));
 
 // In-memory persistent data store for Customer Portal & Admin CRM API Bridge
 interface StoredRequest {

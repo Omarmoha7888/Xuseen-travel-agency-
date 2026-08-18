@@ -51,32 +51,32 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({
   );
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-start justify-center pt-20 p-4">
+    <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-start justify-center pt-12 sm:pt-20 p-2 sm:p-4">
       <motion.div
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: -15 }}
         animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -20 }}
-        className="w-full max-w-2xl bg-[#141414] border border-[#D4AF37]/40 rounded-3xl shadow-2xl overflow-hidden text-gray-200"
+        exit={{ opacity: 0, y: -15 }}
+        className="w-full max-w-2xl bg-[#141414] border border-[#D4AF37]/40 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden text-gray-200"
       >
         {/* Search Input Bar */}
-        <div className="p-4 sm:p-5 border-b border-white/10 flex items-center gap-3">
-          <Search className="w-5 h-5 text-[#D4AF37] shrink-0" />
+        <div className="p-3.5 sm:p-5 border-b border-white/10 flex items-center gap-2.5 sm:gap-3">
+          <Search className="w-4 h-4 sm:w-5 sm:h-5 text-[#D4AF37] shrink-0" />
           <input
             type="text"
             autoFocus
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search flights, visa types, destinations, Hajj & Umrah..."
-            className="flex-1 bg-transparent text-sm sm:text-base text-white outline-none placeholder-gray-500"
+            placeholder="Search flights, visa, destinations..."
+            className="flex-1 bg-transparent text-xs sm:text-base text-white outline-none placeholder-gray-500 min-h-[38px]"
           />
           {query && (
-            <button onClick={() => setQuery('')} className="text-gray-400 hover:text-white text-xs">
+            <button onClick={() => setQuery('')} className="text-gray-400 hover:text-white text-xs px-1">
               Clear
             </button>
           )}
           <button
             onClick={onClose}
-            className="p-1.5 rounded-lg bg-white/5 border border-white/10 hover:border-white/20 text-gray-400 hover:text-white"
+            className="p-1.5 rounded-lg bg-white/5 border border-white/10 hover:border-white/20 text-gray-400 hover:text-white touch-manipulation"
           >
             <X className="w-4 h-4" />
           </button>

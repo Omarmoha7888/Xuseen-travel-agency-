@@ -141,23 +141,23 @@ export const TrackRequestModal: React.FC<TrackRequestModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/85 backdrop-blur-md flex items-center justify-center p-3 sm:p-6">
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/90 backdrop-blur-md flex items-center justify-center p-2 sm:p-6">
       <motion.div
-        initial={{ opacity: 0, scale: 0.95, y: 20 }}
+        initial={{ opacity: 0, scale: 0.96, y: 15 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
-        className="relative w-full max-w-4xl bg-[#121212] border border-[#D4AF37]/40 rounded-3xl shadow-2xl overflow-hidden text-gray-200 my-8 flex flex-col max-h-[90vh]"
+        className="relative w-full max-w-4xl bg-[#121212] border border-[#D4AF37]/40 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden text-gray-200 my-auto sm:my-8 flex flex-col max-h-[94vh] sm:max-h-[90vh]"
       >
         {/* Modal Header */}
-        <div className="p-5 sm:p-6 bg-[#161616] border-b border-white/10 flex items-center justify-between shrink-0">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-[#D4AF37]/20 border border-[#D4AF37]/50 flex items-center justify-center text-[#D4AF37] font-bold">
-              <Compass className="w-5 h-5" />
+        <div className="p-4 sm:p-6 bg-[#161616] border-b border-white/10 flex items-center justify-between shrink-0">
+          <div className="flex items-center gap-2.5 sm:gap-3">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-[#D4AF37]/20 border border-[#D4AF37]/50 flex items-center justify-center text-[#D4AF37] font-bold shrink-0">
+              <Compass className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
             <div>
-              <h2 className="font-cinzel text-lg sm:text-xl font-bold text-white leading-tight">
+              <h2 className="font-cinzel text-base sm:text-xl font-bold text-white leading-tight">
                 {t.trackPortal.title}
               </h2>
-              <p className="text-xs text-gray-400">
+              <p className="text-[11px] sm:text-xs text-gray-400">
                 {t.trackPortal.subtitle}
               </p>
             </div>
@@ -165,7 +165,7 @@ export const TrackRequestModal: React.FC<TrackRequestModalProps> = ({
 
           <button
             onClick={onClose}
-            className="w-9 h-9 rounded-full bg-white/5 border border-white/10 hover:border-[#D4AF37] hover:text-[#D4AF37] flex items-center justify-center transition-colors text-gray-400"
+            className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/5 border border-white/10 hover:border-[#D4AF37] hover:text-[#D4AF37] flex items-center justify-center transition-colors text-gray-400 touch-manipulation"
           >
             <X className="w-4 h-4" />
           </button>
