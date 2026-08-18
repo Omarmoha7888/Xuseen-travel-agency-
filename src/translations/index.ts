@@ -1,0 +1,1077 @@
+import { Language } from '../types';
+
+export const translations = {
+  en: {
+    brandName: 'Balcad Travel Agency',
+    brandTagline: 'Premier Travel, Visa & Luxury Tourism Services',
+    
+    nav: {
+      home: 'Home',
+      aboutUs: 'About Us',
+      services: 'Our Services',
+      visaServices: 'Visa Services',
+      flightBooking: 'Flight Booking',
+      hotels: 'Hotels',
+      hajjUmrah: 'Hajj & Umrah',
+      holidayPackages: 'Holiday Packages',
+      carRental: 'Car Rental',
+      airportTransfer: 'Airport Transfer',
+      cargoServices: 'Cargo Services',
+      contactUs: 'Contact Us',
+      faq: 'FAQ',
+      requestService: 'Request Service',
+      trackRequest: 'Track Request',
+      emergency: '24/7 Hotline',
+    },
+
+    hero: {
+      badge: 'Trusted Travel Partner Across East Africa & Worldwide',
+      titleLine1: 'Journey With Elegance,',
+      titleLine2: 'Explore The World In Luxury',
+      description: 'Balcad Travel Agency provides exceptional visa processing, worldwide flight reservations, sacred Hajj & Umrah journeys, and bespoke travel packages with unmatched speed and reliability.',
+      ctaRequest: 'Request a Service',
+      ctaContact: 'Contact Us',
+      ctaTrack: 'Track My Request',
+      searchPlaceholder: 'Search destinations, visas, flights, or packages...',
+      quickQuoteTitle: 'Quick Travel Inquiry',
+      serviceTypeLabel: 'Service Desired',
+      selectService: 'Select Service',
+      destinationLabel: 'Destination',
+      departureDateLabel: 'Travel Date',
+      startRequestBtn: 'Begin Custom Request',
+      trustBadges: {
+        satisfaction: '100% Client Satisfaction',
+        certified: 'Authorized Agency',
+        support: '24/7 Dedicated Support',
+      }
+    },
+
+    whyChooseUs: {
+      tagline: 'Excellence & Distinction',
+      title: 'Why Choose Balcad Travel Agency',
+      description: 'We blend deep regional expertise with global travel networks to ensure seamless, worry-free journeys for every client.',
+      items: [
+        {
+          title: 'Professional Team',
+          desc: 'Licensed travel specialists and immigration consultants dedicated to your itinerary and documentation.',
+        },
+        {
+          title: 'Fast Processing',
+          desc: 'Swift visa turnaround and instant reservation processing with high approval success rates.',
+        },
+        {
+          title: 'Trusted Agency',
+          desc: 'Over a decade of reputable leadership in Somali and international travel operations.',
+        },
+        {
+          title: 'Experienced Staff',
+          desc: 'Multilingual advisors equipped to handle complex multi-city bookings and emergency travel logistics.',
+        },
+        {
+          title: '24/7 Customer Support',
+          desc: 'Round-the-clock telephone, email, and live messaging support from departure to safe return.',
+        },
+        {
+          title: 'Reliable Travel Solutions',
+          desc: 'Guaranteed flight seats, verified luxury hotels, and secure ground transfers across 85+ countries.',
+        },
+        {
+          title: 'Worldwide Destinations',
+          desc: 'Extensive global network across the Middle East, Asia, Europe, North America, and Africa.',
+        },
+        {
+          title: 'Secure Travel Assistance',
+          desc: 'Encrypted document handling and end-to-end assistance protecting your confidential paperwork.',
+        }
+      ]
+    },
+
+    stats: {
+      customersServed: 'Happy Travelers Served',
+      flightsRequested: 'Flights Booked & Routed',
+      visaRequests: 'Visa Applications Handled',
+      hotelsBooked: 'Luxury Nights Reserved',
+      yearsOfExperience: 'Years of Proven Excellence',
+      destinations: 'Worldwide Destinations',
+    },
+
+    featuredServices: {
+      tagline: 'Comprehensive Travel Catalog',
+      title: 'Our Signature Travel Services',
+      description: 'Discover tailored travel solutions designed to meet individual, corporate, and pilgrimage needs with premier care.',
+      allTab: 'All Services',
+      learnMore: 'Learn More & Details',
+      requestService: 'Request Service',
+      noPriceNotice: 'Inquiry-based service with customized quotation provided directly by your assigned agent.',
+    },
+
+    serviceDetailModal: {
+      overview: 'Service Overview',
+      requiredDocuments: 'Required Documents & Criteria',
+      processingTimeline: 'Processing Time & Workflow',
+      faqs: 'Frequently Asked Questions',
+      requestThisService: 'Request This Service Now',
+      contactForInquiry: 'Ask Questions About This Service',
+      relatedServices: 'Related Services You May Need',
+      close: 'Close',
+    },
+
+    requestForm: {
+      title: 'Travel Service Request Form',
+      subtitle: 'Submit your travel requirements. No online payment required. Our dedicated team will review your application and contact you promptly.',
+      step1: '1. Personal Details',
+      step2: '2. Passport Information',
+      step3: '3. Travel Requirements',
+      step4: '4. Upload Documents',
+      step5: '5. Review & Submit',
+
+      fields: {
+        fullName: 'Full Name (as in Passport)',
+        fullNamePlaceholder: 'e.g. Abdirahman Mohamed Ali',
+        phoneNumber: 'Primary Phone Number',
+        phoneNumberPlaceholder: '+252 61 XXX XXXX',
+        whatsappNumber: 'WhatsApp Number (Optional)',
+        whatsappPlaceholder: '+252 61 XXX XXXX',
+        email: 'Email Address',
+        emailPlaceholder: 'your.name@example.com',
+        gender: 'Gender',
+        genderMale: 'Male',
+        genderFemale: 'Female',
+        genderOther: 'Other',
+        dateOfBirth: 'Date of Birth',
+        nationality: 'Nationality',
+        nationalityPlaceholder: 'e.g. Somali',
+        country: 'Country of Residence',
+        city: 'Current City',
+
+        passportNumber: 'Passport Number',
+        passportNumberPlaceholder: 'e.g. N01234567',
+        passportIssueDate: 'Passport Issue Date',
+        passportExpiryDate: 'Passport Expiry Date',
+
+        serviceType: 'Required Service Type',
+        destinationCountry: 'Destination Country',
+        destinationCity: 'Destination City / Airport',
+        departureDate: 'Preferred Departure Date',
+        returnDate: 'Return Date (Optional for one-way)',
+        adults: 'Number of Adults (12+ yrs)',
+        children: 'Number of Children (0-11 yrs)',
+        travelClass: 'Preferred Travel Class',
+        hotelPreference: 'Hotel / Accommodation Preference',
+        additionalNotes: 'Special Requests / Additional Details',
+        additionalNotesPlaceholder: 'Tell us about flight timing preferences, hotel requirements, visa history, or any urgent travel needs...',
+      },
+
+      upload: {
+        title: 'Upload Official Documents',
+        subtitle: 'Supported files: Passport, National ID, Visa docs, Photo, Supporting Papers (PDF, JPG, PNG up to 20MB per file).',
+        dragDropText: 'Drag and drop your documents here, or browse files from your device',
+        selectFilesBtn: 'Browse Documents',
+        fileTypesAllowed: 'Accepted formats: PDF, JPG, JPEG, PNG (Max 20MB each)',
+        documentTypeLabel: 'Document Category',
+        docTypes: {
+          passport: 'Passport Bio Page Copy',
+          id: 'National Identification / Resident Card',
+          visa: 'Previous Visa / Entry Permit',
+          photo: 'Passport Size White-Background Photo',
+          supporting: 'Supporting Invitation / Financial Letter',
+        },
+        removeFile: 'Remove',
+      },
+
+      validation: {
+        nameRequired: 'Full Name must be at least 3 characters.',
+        phoneRequired: 'Please enter a valid international phone number.',
+        emailRequired: 'Please provide a valid email address.',
+        genderRequired: 'Please specify your gender.',
+        dobRequired: 'Date of Birth is required.',
+        nationalityRequired: 'Nationality cannot be empty.',
+        countryRequired: 'Country cannot be empty.',
+        cityRequired: 'City cannot be empty.',
+        passportRequired: 'Passport Number is required (min 5 characters).',
+        passportExpiryRequired: 'Valid future passport expiry date is required.',
+        serviceRequired: 'Please select a service type.',
+        destinationRequired: 'Destination country is required.',
+        departureRequired: 'Departure date must be today or in the future.',
+        returnAfterDeparture: 'Return date must be after departure date.',
+        fileFormatError: 'Unsupported format. Only PDF, JPG, PNG, and JPEG files are allowed.',
+        fileSizeError: 'File exceeds the 20MB maximum size limit.',
+      },
+
+      submitting: 'Submitting Your Request Securely...',
+      submitBtn: 'Submit Travel Request',
+      noPaymentNotice: 'Note: Balcad Travel Agency does not collect online payments through the website. A designated travel officer will review your request and get in touch with you directly.',
+    },
+
+    successModal: {
+      title: 'Request Submitted Successfully!',
+      thankYou: 'Thank you for choosing Balcad Travel Agency.',
+      message: 'Your request has been received and automatically registered in our Travel CRM system. A specialized travel consultant has been notified and will contact you via phone, WhatsApp, or email shortly.',
+      requestIdLabel: 'Your Official Request ID:',
+      serviceLabel: 'Service Requested:',
+      dateLabel: 'Submission Date:',
+      customerLabel: 'Applicant Name:',
+      printBtn: 'Print / Save Receipt',
+      trackBtn: 'Track Request Live',
+      doneBtn: 'Return to Homepage',
+      emailNotice: 'A confirmation email with your Request ID and details has been generated.',
+    },
+
+    trackPortal: {
+      title: 'Track Your Travel Request',
+      subtitle: 'Check the real-time status, timeline, and agent updates of your service request.',
+      idPlaceholder: 'Enter Request ID (e.g. BTA-2026-1049)',
+      emailPlaceholder: 'Enter Registered Email or Phone Number',
+      trackBtn: 'Track Status',
+      notFoundTitle: 'Request Not Found',
+      notFoundMsg: 'No travel request found with these credentials. Please verify your Request ID and contact info or reach out to our support team.',
+      
+      detailsTitle: 'Request Details & Current Status',
+      statusLabel: 'Current Status',
+      assignedAgentLabel: 'Assigned Travel Consultant',
+      unassignedNotice: 'Being reviewed by Administration',
+      timelineTitle: 'Live Request Activity Timeline',
+      chatTitle: 'Direct Consultant Messaging',
+      chatPlaceholder: 'Type a message to your assigned travel agent...',
+      sendMsgBtn: 'Send',
+      emptyChat: 'No messages yet. Send a message to get direct updates from your agent.',
+    },
+
+    aboutUs: {
+      tagline: 'Our Heritage & Mission',
+      title: 'About Balcad Travel Agency',
+      intro1: 'Balcad Travel Agency is a premier, full-service travel and visa consultancy headquartered in Somalia, serving clients across East Africa, the Horn of Africa, the Gulf region, and the global diaspora.',
+      intro2: 'Founded on principles of integrity, excellence, and transparency, we facilitate international flights, complex visa applications, sacred Hajj & Umrah pilgrimages, luxury accommodation, and customized holiday packages.',
+      
+      missionTitle: 'Our Mission',
+      missionDesc: 'To deliver reliable, secure, expeditious, and world-class travel and visa services, empowering travelers with peace of mind and personalized support at every step of their journey.',
+      
+      visionTitle: 'Our Vision',
+      visionDesc: 'To be the most trusted, innovative, and preferred travel partner in East Africa and beyond, celebrated for operational excellence, ethical service, and customer satisfaction.',
+      
+      valuesTitle: 'Our Core Values',
+      values: [
+        { name: 'Integrity', desc: 'Honesty and unwavering moral principles in all our dealings.' },
+        { name: 'Trust', desc: 'Building enduring relationships with clients and international partners.' },
+        { name: 'Professionalism', desc: 'Uncompromising standard of service, accuracy, and diligence.' },
+        { name: 'Customer Satisfaction', desc: 'Placing our clients at the very heart of everything we do.' },
+        { name: 'Innovation', desc: 'Leveraging modern technology to streamline travel bookings.' },
+        { name: 'Transparency', desc: 'Clear guidelines, truthful timelines, and open communication.' },
+        { name: 'Reliability', desc: 'Dependable solutions you can count on in any travel circumstance.' },
+      ]
+    },
+
+    testimonials: {
+      tagline: 'Client Experiences',
+      title: 'What Our Travelers Say',
+      description: 'Discover how Balcad Travel Agency has simplified international travel for thousands of clients worldwide.',
+    },
+
+    gallery: {
+      tagline: 'Visual Journeys',
+      title: 'Our Travel Gallery',
+      description: 'Explore glimpses of world-class airlines, holy sites, luxury resorts, and unforgettable destinations.',
+      categories: {
+        all: 'All Moments',
+        flights: 'Aviation & Flights',
+        hotels: 'Luxury Hotels',
+        tour_packages: 'Tour Packages',
+        pilgrimage: 'Hajj & Umrah Pilgrimage',
+        tourist_destinations: 'Global Destinations',
+        travel_experiences: 'Travel Experiences',
+      }
+    },
+
+    faq: {
+      tagline: 'Got Questions?',
+      title: 'Frequently Asked Questions',
+      description: 'Find quick, clear answers to common questions about our visa assistance, bookings, document verification, and support.',
+      searchPlaceholder: 'Search questions and answers...',
+      all: 'All Questions',
+      visa: 'Visa Inquiries',
+      flights: 'Flight Reservations',
+      pilgrimage: 'Hajj & Umrah',
+      hotels: 'Hotels & Accommodations',
+      documents: 'Documents & Payment Policy',
+    },
+
+    contact: {
+      tagline: 'We Are Here For You',
+      title: 'Contact Balcad Travel Agency',
+      description: 'Have a question or need urgent travel assistance? Reach out to our dedicated support team.',
+      companyName: 'Balcad Travel Agency',
+      phones: ['+252 61 2483838', '+252 61 2141414'],
+      email: 'balcadtravel@gmail.com',
+      address: 'KM4 Business Center, Maka Al-Mukarama Road, Mogadishu, Somalia (Head Office)',
+      workingHours: 'Saturday - Thursday: 8:00 AM - 8:30 PM | Friday: 2:00 PM - 8:30 PM',
+      emergencyTitle: '24/7 Emergency Line',
+      whatsappBtn: 'Chat With Us on WhatsApp',
+      formTitle: 'Send Us a Direct Message',
+      formSubtitle: 'Fill out this form and our team will get back to you within 2 hours.',
+      nameLabel: 'Your Full Name',
+      emailLabel: 'Your Email Address',
+      phoneLabel: 'Phone Number',
+      subjectLabel: 'Subject',
+      messageLabel: 'Message',
+      messagePlaceholder: 'How can we help you today with your travel plans?',
+      sendBtn: 'Send Message',
+      sentSuccess: 'Your message has been sent successfully! Our team will contact you shortly.',
+    },
+
+    cta: {
+      title: 'Ready to Plan Your Next Journey?',
+      description: 'Whether you need an expedited visa, an airline ticket, or a customized holy pilgrimage package, our specialists are ready to guide you.',
+      requestBtn: 'Submit Service Request',
+      contactBtn: 'Speak With an Advisor',
+    },
+
+    footer: {
+      desc: 'Balcad Travel Agency is a premier licensed travel agency delivering flight booking, visa processing, Hajj & Umrah packages, and worldwide luxury travel solutions.',
+      quickLinks: 'Quick Links',
+      servicesTitle: 'Our Services',
+      contactTitle: 'Get in Touch',
+      newsletterTitle: 'Travel Updates & Bulletins',
+      newsletterDesc: 'Subscribe to receive visa policy updates, travel alerts, and seasonal packages.',
+      emailPlaceholder: 'Enter your email',
+      subscribeBtn: 'Subscribe',
+      subscribedMsg: 'Thank you for subscribing to Balcad Travel alerts!',
+      allRights: 'All Rights Reserved. Balcad Travel Agency.',
+      privacy: 'Privacy Policy',
+      terms: 'Terms of Service',
+      security: 'Security & Compliance',
+    },
+
+    search: {
+      title: 'Global Search',
+      placeholder: 'Search for visa types, flight bookings, Hajj & Umrah, FAQs, destinations...',
+      noResults: 'No matching services or FAQs found.',
+      servicesFound: 'Services Found',
+      faqsFound: 'Frequently Asked Questions',
+      quickLinks: 'Quick Links',
+    },
+
+    toast: {
+      requestSuccess: 'Your travel request has been submitted successfully!',
+      fileUploaded: 'Document uploaded successfully.',
+      fileRemoved: 'Document removed.',
+      contactSuccess: 'Message received. We will contact you shortly.',
+      searchOpened: 'Search ready.',
+    }
+  },
+
+  so: {
+    brandName: 'Balcad Travel Agency',
+    brandTagline: 'Adeegyada Safarka, Dal-ku-galka (Fiisaha) & Dalxiiska Casriga ah',
+    
+    nav: {
+      home: 'Bogga Hore',
+      aboutUs: 'Nagu Saabsan',
+      services: 'Adeegyadeena',
+      visaServices: 'Adeegyada Fiisaha',
+      flightBooking: 'Dalbashada Duulimaadka',
+      hotels: 'Hoteellada',
+      hajjUmrah: 'Xajka & Cumrada',
+      holidayPackages: 'Xirmooyinka Dalxiiska',
+      carRental: 'Kirada Baabuurta',
+      airportTransfer: 'Qaadista Garoonka',
+      cargoServices: 'Adeegga Xamuulka',
+      contactUs: 'Nala Soo Xiriir',
+      faq: 'Su’aalaha Badan',
+      requestService: 'Dalbo Adeeg',
+      trackRequest: 'La Soco Dalabkaaga',
+      emergency: 'Khadka Degdegga 24/7',
+    },
+
+    hero: {
+      badge: 'Shirkadda Safarka ee Loogu Kalsoonida Badan Yahay Bariga Afrika',
+      titleLine1: 'Ku Safar Sharaf iyo Kalsooni,',
+      titleLine2: 'Dunida Ku Soo Dhex Wareeg',
+      description: 'Balcad Travel Agency waxay kuu fududeyneysaa adeegyada fiisooyinka caalamka, goynta tigidhada diyaaradaha, safarrada barakaysan ee Xajka & Cumrada, iyo dalxiis heer sare ah adigoo helaya adeeg degdeg ah oo hufan.',
+      ctaRequest: 'Dalbo Adeeg Hadda',
+      ctaContact: 'Nala Soo Xiriir',
+      ctaTrack: 'Raad-raac Dalabkaaga',
+      searchPlaceholder: 'Raadi fiiso, duulimaad, waddan, ama adeeg kasta...',
+      quickQuoteTitle: 'Weydiin Degdeg ah',
+      serviceTypeLabel: 'Adeegga aad rabto',
+      selectService: 'Dooro Adeegga',
+      destinationLabel: 'Waddanka aad u socoto',
+      departureDateLabel: 'Taariikhda Safarka',
+      startRequestBtn: 'Bilaaw Dalabkaaga',
+      trustBadges: {
+        satisfaction: '100% Qanacsanaanta Macmiilka',
+        certified: 'Wakaalad Sharciyeysan',
+        support: 'Adeeg & Caawin 24/7 ah',
+      }
+    },
+
+    whyChooseUs: {
+      tagline: 'Hufnaan iyo Tayo Sare',
+      title: 'Maxaad U Dooranaysaa Balcad Travel Agency?',
+      description: 'Waxaan isku darnay khibrad ballaaran oo maxalli ah iyo xiriir caalami ah si aan safarkaaga uga dhigno mid raaxo leh oo aan dhib lahayn.',
+      items: [
+        {
+          title: 'Koox Khubaro ah',
+          desc: 'Khabiirro ku xeel-dheer safarrada iyo shuruucda socdaalka oo kuu diyaarinaya qorshe kasta.',
+        },
+        {
+          title: 'Adeeg Degdeg ah',
+          desc: 'Ka shaqeynta fiisaha iyo tigidhada oo ku dhammaata waqti kooban iyo fursad sare oo aqbalid ah.',
+        },
+        {
+          title: 'Wakaalad La Aaminay',
+          desc: 'In ka badan 12 sano oo hoggaamineed iyo kalsooni buuxda oo lagu qabo adeegyadeena.',
+        },
+        {
+          title: 'Shaqaale Khibrad Leh',
+          desc: 'La-taliyeyaal ku hadla luuqado kala duwan oo diyaar u ah inay xalliyaan dalab kasta.',
+        },
+        {
+          title: 'Taageero 24/7 ah',
+          desc: 'Adeeg taleefan, fariimo iyo xiriir toos ah oo furan xilli kasta oo aad noo baahato.',
+        },
+        {
+          title: 'Xalal Safar oo Sugan',
+          desc: 'Kuraasta diyaaradaha oo la xaqiijiyay, hoteello 5-xiddigood ah iyo soo dhaweyn garoon oo sugan.',
+        },
+        {
+          title: 'Magaalooyinka Caalamka',
+          desc: 'Shabakad ballaaran oo gaarsiisan Bariga Dhexe, Aasiya, Yurub, Ameerika iyo Afrika.',
+        },
+        {
+          title: 'Ilaalinta Dukumeentiyada',
+          desc: 'Dukumeentiyadaada iyo sirtaada safar oo si adag oo amni leh loo ilaalinayo.',
+        }
+      ]
+    },
+
+    stats: {
+      customersServed: 'Macaamiil Lagu Adeegay',
+      flightsRequested: 'Duulimaadyo La Dalbay',
+      visaRequests: 'Codsiyada Fiisooyinka',
+      hotelsBooked: 'Hoteello La Qabsaday',
+      yearsOfExperience: 'Sano oo Khibrad ah',
+      destinations: 'Magaalooyin Caalami ah',
+    },
+
+    featuredServices: {
+      tagline: 'Liiska Adeegyada Buuxa',
+      title: 'Adeegyadeena Gaarka ah',
+      description: 'Ka dhex baaro adeegyo kala duwan oo loogu talagalay qofka, qoyska, shirkadaha iyo safarrada cibaadada.',
+      allTab: 'Dhammaan Adeegyada',
+      learnMore: 'Faahfaahin & Xog Dheeraad ah',
+      requestService: 'Dalbo Adeeggan',
+      noPriceNotice: 'Dalabku ma laha lacag-bixin online ah; xafiisku si toos ah ayuu kuu soo wici doonaa.',
+    },
+
+    serviceDetailModal: {
+      overview: 'Dulmarka Adeegga',
+      requiredDocuments: 'Dukumeentiyada Loo Baahan Yahay',
+      processingTimeline: 'Waqtiga & Habka uu ku Dhammaanayo',
+      faqs: 'Su’aalaha Badanaa La Isweydiiyo',
+      requestThisService: 'Dalbo Adeeggan Hadda',
+      contactForInquiry: 'Weydii Su’aal Adeeggan Ku Saabsan',
+      relatedServices: 'Adeegyada Kale ee La Xiriira',
+      close: 'Xir',
+    },
+
+    requestForm: {
+      title: 'Foomka Dalbashada Adeegga Safarka',
+      subtitle: 'Gali xogtaada safarka. Wax lacag-bixin online ah looma baahna. Shaqaalaheenna ayaa xogtaada eegi doona oo kula soo xiriiri doona.',
+      step1: '1. Xogta Shakhsiga',
+      step2: '2. Xogta Baasaboorka',
+      step3: '3. Faahfaahinta Safarka',
+      step4: '4. Soo Geli Dukumeentiyada',
+      step5: '5. Dib u Eeg & Gudbi',
+
+      fields: {
+        fullName: 'Magacaaga oo Buuxa (Sida Baasaboorka)',
+        fullNamePlaceholder: 'Tusaale: Cabdiraxmaan Maxamed Cali',
+        phoneNumber: 'Lambarka Taleefanka Koowaad',
+        phoneNumberPlaceholder: '+252 61 XXX XXXX',
+        whatsappNumber: 'Lambarka WhatsApp-ka (Haddii uu jiro)',
+        whatsappPlaceholder: '+252 61 XXX XXXX',
+        email: 'Email-kaaga',
+        emailPlaceholder: 'magacaaga@gmail.com',
+        gender: 'Jinsiga',
+        genderMale: 'Lab',
+        genderFemale: 'Dheddig',
+        genderOther: 'Kale',
+        dateOfBirth: 'Taariikhda Dhalashada',
+        nationality: 'Dhalashada (Jinsiyadda)',
+        nationalityPlaceholder: 'Tusaale: Soomaali',
+        country: 'Waddanka aad ku nooshahay',
+        city: 'Magaalada aad joogto',
+
+        passportNumber: 'Lambarka Baasaboorka',
+        passportNumberPlaceholder: 'Tusaale: N01234567',
+        passportIssueDate: 'Taariikhda La Bixiyay Baasaboorka',
+        passportExpiryDate: 'Taariikhda uu Dhacayo Baasaboorku',
+
+        serviceType: 'Nooca Adeegga aad Dalbaneyso',
+        destinationCountry: 'Waddanka aad u socoto',
+        destinationCity: 'Magaalada / Garoonka aad ku dageyso',
+        departureDate: 'Taariikhda aad Baxayso',
+        returnDate: 'Taariikhda Soo Laabashada (Haddii uu jiro)',
+        adults: 'Tirada Dadka Waaweyn (12+ sano)',
+        children: 'Tirada Carruurta (0-11 sano)',
+        travelClass: 'Heerka Kursiga aad Doonayso',
+        hotelPreference: 'Nooca Hoteelka aad Doonayso',
+        additionalNotes: 'Fariin Dheeraad ah / Codsiyo Gaar ah',
+        additionalNotesPlaceholder: 'Faahfaahi xilliga duulimaadka, hoteelka, ama caawimaad kasta oo gaar ah...',
+      },
+
+      upload: {
+        title: 'Soo Geli Dukumeentiyada Rasmiga ah',
+        subtitle: 'Faylasha la oggol yahay: Baasaboor, Kaarka Aqoonsiga, Fiiso Hore, Sawir Baasaboor (PDF, JPG, PNG ilaa 20MB faylkiiba).',
+        dragDropText: 'Halkan ku soo tuur dukumeentiyada, ama ka dooro qalabkaaga',
+        selectFilesBtn: 'Dooro Faylasha',
+        fileTypesAllowed: 'Foomamka: PDF, JPG, JPEG, PNG (Ugu badnaan 20MB midkiiba)',
+        documentTypeLabel: 'Nooca Dukumeentiga',
+        docTypes: {
+          passport: 'Nuqulka Baasaboorka (Bogga Xogta)',
+          id: 'Kaarka Aqoonsiga Qaranka / Deganaanshaha',
+          visa: 'Fiiso Hore / Oggolaanshaha Gelitaanka',
+          photo: 'Sawir Baasaboor ah (Gadaal Cad)',
+          supporting: 'Dukumeenti Kale oo Taageeraya',
+        },
+        removeFile: 'Tirtir',
+      },
+
+      validation: {
+        nameRequired: 'Fadlan qor magacaaga oo buuxa (ugu yaraan 3 xaraf).',
+        phoneRequired: 'Fadlan gali lambar taleefan oo sax ah.',
+        emailRequired: 'Fadlan gali email sax ah.',
+        genderRequired: 'Fadlan dooro jinsigaaga.',
+        dobRequired: 'Taariikhda dhalashada waa waajib.',
+        nationalityRequired: 'Dhalashada ma bannaanaan karto.',
+        countryRequired: 'Waddanka ma bannaanaan karo.',
+        cityRequired: 'Magaalada ma bannaanaan karto.',
+        passportRequired: 'Lambarka baasaboorka waa waajib.',
+        passportExpiryRequired: 'Fadlan gali taariikh sax ah oo mustaqbalka ah.',
+        serviceRequired: 'Fadlan dooro adeegga aad rabto.',
+        destinationRequired: 'Waddanka aad u socoto waa waajib.',
+        departureRequired: 'Taariikhda bixitaanka waa inay ahaataa maanta ama mustaqbalka.',
+        returnAfterDeparture: 'Taariikhda soo laabashadu waa inay ka dambaysaa bixitaanka.',
+        fileFormatError: 'Nooca faylka lama taageero. Kaliya PDF, JPG, PNG ayaa la oggol yahay.',
+        fileSizeError: 'Faylku wuxuu ka weyn yahay 20MB.',
+      },
+
+      submitting: 'Dalabkaaga ayaa si sugan loo gudbinayaa...',
+      submitBtn: 'Gudbi Dalabka Safarka',
+      noPaymentNotice: 'Ogow: Balcad Travel Agency wax lacag ah kuma qaaddo website-ka. Shaqaale ka tirsan shirkadda ayaa kula soo xiriiri doona.',
+    },
+
+    successModal: {
+      title: 'Dalabkaaga Si Guul Leh Ayaa Loo Gudbiyay!',
+      thankYou: 'Waad ku mahadsan tahay doorashada Balcad Travel Agency.',
+      message: 'Dalabkaaga waxaa si toos ah loogu gudbiyay nidaamka Maamulka Safarka (CRM). Shaqaale u xilsaaran ayaa xogtaada eegi doona oo dhawaan kula soo xiriiri doona taleefan, WhatsApp ama email.',
+      requestIdLabel: 'Lambarkaaga Aqoonsiga Dalabka (Request ID):',
+      serviceLabel: 'Adeegga La Dalbaday:',
+      dateLabel: 'Taariikhda La Gudbiyay:',
+      customerLabel: 'Magaca Codsadaha:',
+      printBtn: 'Daabaco / Keydso Rasiidka',
+      trackBtn: 'La Soco Xaaladda Dalabka',
+      doneBtn: 'Ku Noqo Bogga Hore',
+      emailNotice: 'Fariin xaqiijin ah oo wadata lambarkaaga dalabka ayaa loo diray email-kaaga.',
+    },
+
+    trackPortal: {
+      title: 'Raad-raac Dalabkaaga Safarka',
+      subtitle: 'Halkan ka hubi xaaladda uu marayo dalabkaagii, shaqaalaha loo xilsaaray iyo fariimaha.',
+      idPlaceholder: 'Gali Request ID (Tusaale: BTA-2026-1049)',
+      emailPlaceholder: 'Gali Email-kii ama Taleefankii aad ku dalbatay',
+      trackBtn: 'Raadi Dalabka',
+      notFoundTitle: 'Dalabka Lama Helin',
+      notFoundMsg: 'Lama helin dalab wata xogta aad gelisay. Fadlan hubi Request ID-gaaga ama la xiriir xafiiska.',
+      
+      detailsTitle: 'Faahfaahinta Dalabka & Xaaladda Hadda',
+      statusLabel: 'Xaaladda Hadda',
+      assignedAgentLabel: 'Shaqaalaha Loo Xilsaaray',
+      unassignedNotice: 'Maamulka ayaa hadda dib u eegaya',
+      timelineTitle: 'Taariikhda & Talaabooyinka Dalabka',
+      chatTitle: 'Wada-sheekeysi Toos ah oo Shaqaalaha ah',
+      chatPlaceholder: 'Fariin u qor shaqaalaha gacanta ku haya dalabkaaga...',
+      sendMsgBtn: 'Dir',
+      emptyChat: 'Weli ma jiraan fariimo. Fariin qor si aad warbixin toos ah uga hesho shaqaalaha.',
+    },
+
+    aboutUs: {
+      tagline: 'Taariikhdeena & Hiigsigeena',
+      title: 'Nagu Saabsan - Balcad Travel Agency',
+      intro1: 'Balcad Travel Agency waa wakaalad safar oo heer caalami ah oo xarunteedu tahay Soomaaliya, u adeegta dadka ku nool Bariga Afrika, Geeska Afrika, Waddamada Khaliijka iyo qurbajoogta Soomaaliyeed ee dunida daafaheeda ku nool.',
+      intro2: 'Waxaa nalagu aasaasay daacadnimo, tayo sare iyo hufnaan, waxaanna kuu qabaneynaa duulimaadyada, fiisooyinka adag, safarrada barakaysan ee Xajka & Cumrada, hoteellada iyo dalxiiska gaarka ah.',
+      
+      missionTitle: 'Hadafkeena (Mission)',
+      missionDesc: 'Inaan bixinno adeegyo safar iyo fiiso oo la aamini karo, ammaan ah, degdeg ah oo heer caalami ah, anagoo macaamiisheenna siinayna nasasho iyo qanacsanaan buuxda.',
+      
+      visionTitle: 'Hiigsigeena (Vision)',
+      visionDesc: 'Inaan noqonno wakaaladda safarka ee ugu horreysa uguna kalsoonida badan Bariga Afrika iyo guud ahaan caalamka.',
+      
+      valuesTitle: 'Qiyamka Aasaasiga ah',
+      values: [
+        { name: 'Daacadnimo (Integrity)', desc: 'Run-sheegid iyo caddaalad wax kasta oo aan qabaneyno.' },
+        { name: 'Kalsooni (Trust)', desc: 'Dhisidda xiriir waara oo aan la leenahay macaamiisheenna.' },
+        { name: 'Xirfad Sare (Professionalism)', desc: 'Adeeg hufan oo waafaqsan heerarka caalamiga ah.' },
+        { name: 'Qanacsanaanta Macmiilka', desc: 'In macmiilku yahay mudnaantayada koowaad.' },
+        { name: 'Hal-abuur (Innovation)', desc: 'Isticmaalka tiknoolajiyad casri ah si safarka loo fududeeyo.' },
+        { name: 'Caddaan (Transparency)', desc: 'Xog cad, waqti dhab ah iyo xiriir furan.' },
+        { name: 'Kalsooni Buuxda (Reliability)', desc: 'Xalal sugan oo aad ku kalsoonaan karto xaalad kasta.' },
+      ]
+    },
+
+    testimonials: {
+      tagline: 'Aragtida Macaamiisha',
+      title: 'Maxay Macaamiishu Ka Yiraahdeen?',
+      description: 'Eeg sida Balcad Travel Agency ay u fududaysay safarrada kumannaan qof oo caalamka ku nool.',
+    },
+
+    gallery: {
+      tagline: 'Sawirrada Safarrada',
+      title: 'Sawir-gacmeedka Safarradeena',
+      description: 'Daawo muuqaallada duulimaadyada, goobaha barakeysan, hoteellada raaxada iyo magaalooyinka dalxiiska.',
+      categories: {
+        all: 'Dhammaan Sawirrada',
+        flights: 'Diyaaradaha & Duulimaadyada',
+        hotels: 'Hoteellada Raaxada',
+        tour_packages: 'Xirmooyinka Dalxiiska',
+        pilgrimage: 'Xajka & Cumrada',
+        tourist_destinations: 'Magaalooyinka Caalamka',
+        travel_experiences: 'Khibradaha Safarka',
+      }
+    },
+
+    faq: {
+      tagline: 'Ma Qabtaa Su’aalo?',
+      title: 'Su’aalaha Badan ee La Isweydiiyo',
+      description: 'Halkan ka hel jawaabaha su’aalaha ku saabsan fiisooyinka, tigidhada, dukumeentiyada iyo qaabka xiriirka.',
+      searchPlaceholder: 'Raadi su’aal ama jawaab...',
+      all: 'Dhammaan Su’aalaha',
+      visa: 'Fiisooyinka',
+      flights: 'Duulimaadyada',
+      pilgrimage: 'Xajka & Cumrada',
+      hotels: 'Hoteellada',
+      documents: 'Dukumeentiyada & Shuruudaha',
+    },
+
+    contact: {
+      tagline: 'Mar Walba Waan Kuu Diyaar Nahay',
+      title: 'Nala Soo Xiriir - Balcad Travel Agency',
+      description: 'Ma qabtaa su’aal mise waxaad u baahan tahay caawimaad degdeg ah? La xiriir shaqaalaheenna hadda.',
+      companyName: 'Balcad Travel Agency',
+      phones: ['+252 61 2483838', '+252 61 2141414'],
+      email: 'balcadtravel@gmail.com',
+      address: 'Xarunta Ganacsiga KM4, Wadada Maka Al-Mukarama, Muqdisho, Soomaaliya',
+      workingHours: 'Sabti - Khamiis: 8:00 Subaxnimo - 8:30 Fiidnimo | Jimco: 2:00 Galabnimo - 8:30 Fiidnimo',
+      emergencyTitle: 'Khadka Degdegga ah ee 24/7',
+      whatsappBtn: 'Nagala Soo Xiriir WhatsApp',
+      formTitle: 'Noo Soo Dir Fariin Toos ah',
+      formSubtitle: 'Buuxi foomkan kooban, waxaan kugu soo jawaabi doonnaa 2 saac gudahood.',
+      nameLabel: 'Magacaaga oo Buuxa',
+      emailLabel: 'Email-kaaga',
+      phoneLabel: 'Lambarka Taleefanka',
+      subjectLabel: 'Mowduuca',
+      messageLabel: 'Fariintaada',
+      messagePlaceholder: 'Sideen maanta kuugu caawin karnaa safarkaaga?',
+      sendBtn: 'Dir Fariinta',
+      sentSuccess: 'Fariintaada si guul leh ayaa loo diray! Dhawaan ayaan kula soo xiriiri doonnaa.',
+    },
+
+    cta: {
+      title: 'Diyaar Ma U Tahay Safarkaaga Xiga?',
+      description: 'Haddii aad u baahan tahay fiiso degdeg ah, tigidh diyaaradeed, ama xirmo barakeysan oo Cumro ah, khubaradeenu waa kuu diyaar.',
+      requestBtn: 'Dalbo Adeeg Hadda',
+      contactBtn: 'La Hadal Khubaro Safar',
+    },
+
+    footer: {
+      desc: 'Balcad Travel Agency waa wakaalad safar oo rasmi ah, bixisa goynta tigidhada diyaaradaha, fiisooyinka caalamka, Xajka & Cumrada iyo dalxiiska heerka sare ah.',
+      quickLinks: 'Xiriirinta Degdegga ah',
+      servicesTitle: 'Adeegyadeena',
+      contactTitle: 'Xogta Xiriirka',
+      newsletterTitle: 'Wararka & Cusboonaysiinta Safarka',
+      newsletterDesc: 'Ku biir si aad u hesho isbeddellada fiisooyinka iyo fursadaha safarka.',
+      emailPlaceholder: 'Gali email-kaaga',
+      subscribeBtn: 'Is Qor',
+      subscribedMsg: 'Waad ku mahadsan tahay ku biirista wararka Balcad Travel!',
+      allRights: 'Dhammaan Xuquuqdu Way Dhawran Tahay. Balcad Travel Agency.',
+      privacy: 'Shuruucda Xog-dhawrka',
+      terms: 'Shuruudaha Adeegga',
+      security: 'Ammaanka & Ilaalinta Xogta',
+    },
+
+    search: {
+      title: 'Raadinta Guud',
+      placeholder: 'Raadi adeegyada, noocyada fiisooyinka, Xajka & Cumrada, Su’aalaha...',
+      noResults: 'Lama helin adeeg ama su’aal ku habboon waxaad raadisay.',
+      servicesFound: 'Adeegyada La Helay',
+      faqsFound: 'Su’aalaha Badan ee La Helay',
+      quickLinks: 'Bogagga Muhiimka ah',
+    },
+
+    toast: {
+      requestSuccess: 'Dalabkaaga safarka si guul leh ayaa loo gudbiyay!',
+      fileUploaded: 'Dukumeentiga si guul leh ayaa loo soo geliyay.',
+      fileRemoved: 'Dukumeentiga waa laga saaray.',
+      contactSuccess: 'Fariintaada waa la helay. Dhawaan ayaan kula soo xiriiri doonnaa.',
+      searchOpened: 'Raadintu waa diyaar.',
+    }
+  },
+
+  ar: {
+    brandName: 'وكالة بلعد للسفريات والسياحة',
+    brandTagline: 'خدمات السفر الفاخرة، استخراج التأشيرات، وحزم الحج والعمرة',
+    
+    nav: {
+      home: 'الرئيسية',
+      aboutUs: 'من نحن',
+      services: 'خدماتنا',
+      visaServices: 'خدمات التأشيرات',
+      flightBooking: 'حجز الطيران',
+      hotels: 'الفنادق',
+      hajjUmrah: 'الحج والعمرة',
+      holidayPackages: 'الباقات السياحية',
+      carRental: 'تأجير السيارات',
+      airportTransfer: 'توصيل المطار',
+      cargoServices: 'خدمات الشحن',
+      contactUs: 'اتصل بنا',
+      faq: 'الأسئلة الشائعة',
+      requestService: 'طلب خدمة',
+      trackRequest: 'متابعة الطلب',
+      emergency: 'طوارئ 24/7',
+    },
+
+    hero: {
+      badge: 'الوكالة الأكثر موثوقية وتميزاً في شرق إفريقيا والعالم',
+      titleLine1: 'سافر بأناقة وفخامة،',
+      titleLine2: 'واستكشف العالم باطمئنان',
+      description: 'تقدم وكالة بلعد للسفريات أفضل خدمات معالجة التأشيرات، حجز تذاكر الطيران العالمية، رحلات الحج والعمرة المباركة، وباقات العطلات المخصصة بسرعة ودقة فائقة.',
+      ctaRequest: 'طلب خدمة الآن',
+      ctaContact: 'تواصل معنا',
+      ctaTrack: 'تتبع طلبي',
+      searchPlaceholder: 'ابحث عن التأشيرات، الرحلات، الفنادق أو الوجهات...',
+      quickQuoteTitle: 'استفسار سفر سريع',
+      serviceTypeLabel: 'نوع الخدمة المطلوبة',
+      selectService: 'اختر الخدمة',
+      destinationLabel: 'الوجهة المقصودة',
+      departureDateLabel: 'تاريخ السفر',
+      startRequestBtn: 'ابدأ طلبك المخصص',
+      trustBadges: {
+        satisfaction: 'رضا العملاء 100%',
+        certified: 'وكالة سفر مرخصة ومعتمدة',
+        support: 'دعم فني واستشاري 24/7',
+      }
+    },
+
+    whyChooseUs: {
+      tagline: 'الريادة والتميز',
+      title: 'لماذا تختار وكالة بلعد للسفريات؟',
+      description: 'نجمع بين الخبرة العميقة وشبكة العلاقات الدولية لضمان تجربة سفر سلسة ومريحة تلبي تطلعاتك.',
+      items: [
+        {
+          title: 'فريق مهني متخصص',
+          desc: 'مستشارو سفر وخبراء تأشيرات وهجرة معتمدون لتجهيز رحلتك ومستنداتك باحترافية.',
+        },
+        {
+          title: 'إنجاز سريع وموثوق',
+          desc: 'معالجة عاجلة للتأشيرات والحجوزات بأعلى معدلات القبول والنجاح.',
+        },
+        {
+          title: 'وكالة رائدة وموثوقة',
+          desc: 'أكثر من 12 عاماً من الريادة والسمعة الطيبة في قطاع السفر الدولي.',
+        },
+        {
+          title: 'كوادر ذات خبرة واسعة',
+          desc: 'فريق عمل متعدد اللغات مستعد للتعامل مع متطلبات السفر المعقدة والطارئة.',
+        },
+        {
+          title: 'خدمة عملاء على مدار الساعة',
+          desc: 'دعم هاتفي وإلكتروني متواصل طوال أيام الأسبوع وحتى عودتك بسلام.',
+        },
+        {
+          title: 'حلول سفر مضمونة',
+          desc: 'مقاعد طيران مؤكدة وفنادق 5 نجوم مختارة وتوصيل آمن في أكثر من 85 دولة.',
+        },
+        {
+          title: 'وجهات حول العالم',
+          desc: 'تغطية شاملة للشرق الأوسط، آسيا، أوروبا، أمريكا الشمالية وإفريقيا.',
+        },
+        {
+          title: 'حماية وأمان المستندات',
+          desc: 'أنظمة آمنة ومشفرة للحفاظ على سرية مستنداتك وبياناتك الشخصية.',
+        }
+      ]
+    },
+
+    stats: {
+      customersServed: 'مسافر تمت خدمتهم',
+      flightsRequested: 'رحلة طيران تم حجزها',
+      visaRequests: 'طلب تأشيرة تم إنجازه',
+      hotelsBooked: 'ليلة فندقية فاخرة',
+      yearsOfExperience: 'سنوات من الخبرة والتميز',
+      destinations: 'وجهة سفر عالمية',
+    },
+
+    featuredServices: {
+      tagline: 'دليل الخدمات الشامل',
+      title: 'خدماتنا الاستثنائية',
+      description: 'حلول سفر متكاملة للأفراد والعائلات والشركات ورحلات الحج والعمرة الميسرة.',
+      allTab: 'جميع الخدمات',
+      learnMore: 'التفاصيل والشروط',
+      requestService: 'طلب هذه الخدمة',
+      noPriceNotice: 'الموقع لا يحتوي على دفع إلكتروني؛ سيتواصل معك موظفنا لتقديم عرض الأسعار المناسب.',
+    },
+
+    serviceDetailModal: {
+      overview: 'نظرة عامة على الخدمة',
+      requiredDocuments: 'المستندات والمتطلبات المطلوبة',
+      processingTimeline: 'مدة المعالجة وخطوات التنفيذ',
+      faqs: 'الأسئلة الشائعة حول الخدمة',
+      requestThisService: 'طلب هذه الخدمة الآن',
+      contactForInquiry: 'استفسار عن هذه الخدمة',
+      relatedServices: 'خدمات ذات صلة قد تهمك',
+      close: 'إغلاق',
+    },
+
+    requestForm: {
+      title: 'نموذج طلب خدمة السفر',
+      subtitle: 'أدخل تفاصيل رحلتك ومتطلباتك. لا يوجد دفع إلكتروني في الموقع. سيقوم فريقنا بمراجعة طلبك والتواصل معك فوراً.',
+      step1: '1. البيانات الشخصية',
+      step2: '2. بيانات جواز السفر',
+      step3: '3. تفاصيل الرحلة',
+      step4: '4. رفع المستندات',
+      step5: '5. مراجعة وتأكيد',
+
+      fields: {
+        fullName: 'الاسم الكامل (كما في جواز السفر)',
+        fullNamePlaceholder: 'مثال: عبد الرحمن محمد علي',
+        phoneNumber: 'رقم الهاتف الأساسي',
+        phoneNumberPlaceholder: '+252 61 XXX XXXX',
+        whatsappNumber: 'رقم الواتساب (اختياري)',
+        whatsappPlaceholder: '+252 61 XXX XXXX',
+        email: 'البريد الإلكتروني',
+        emailPlaceholder: 'yourname@example.com',
+        gender: 'الجنس',
+        genderMale: 'ذكر',
+        genderFemale: 'أنثى',
+        genderOther: 'أخرى',
+        dateOfBirth: 'تاريخ الميلاد',
+        nationality: 'الجنسية',
+        nationalityPlaceholder: 'مثال: صومالي',
+        country: 'بلد الإقامة',
+        city: 'المدينة الحالية',
+
+        passportNumber: 'رقم جواز السفر',
+        passportNumberPlaceholder: 'مثال: N01234567',
+        passportIssueDate: 'تاريخ إصدار الجواز',
+        passportExpiryDate: 'تاريخ انتهاء الجواز',
+
+        serviceType: 'نوع الخدمة المطلوبة',
+        destinationCountry: 'دولة الوجهة',
+        destinationCity: 'مدينة / مطار الوصول',
+        departureDate: 'تاريخ المغادرة المفضل',
+        returnDate: 'تاريخ العودة (اختياري للذهاب فقط)',
+        adults: 'عدد البالغين (12+ سنة)',
+        children: 'عدد الأطفال (0-11 سنة)',
+        travelClass: 'درجة السفر المفضلة',
+        hotelPreference: 'مستوى الإقامة والفندق',
+        additionalNotes: 'ملاحظات إضافية / طلبات خاصة',
+        additionalNotesPlaceholder: 'وضح تفضيلات مواعيد الطيران، الفندق، أو أية طلبات عاجلة...',
+      },
+
+      upload: {
+        title: 'رفع المستندات الرسمية',
+        subtitle: 'المستندات المدعومة: جواز السفر، الهوية الوطنية، تأشيرات سابقة، صور شخصية (PDF, JPG, PNG حتى 20 ميغابايت لكل ملف).',
+        dragDropText: 'اسحب المستندات وأفلتها هنا، أو تصفح الملفات من جهازك',
+        selectFilesBtn: 'تصفح الملفات',
+        fileTypesAllowed: 'الصيغ المدعومة: PDF, JPG, JPEG, PNG (الحد الأقصى 20 ميغابايت)',
+        documentTypeLabel: 'نوع المستند',
+        docTypes: {
+          passport: 'نسخة صفحة معلومات الجواز',
+          id: 'بطاقة الهوية الوطنية / الإقامة',
+          visa: 'تأشيرة سابقة / تصريح دخول',
+          photo: 'صورة شخصية بخلفية بيضاء',
+          supporting: 'مستندات وخطابات داعمة أخرى',
+        },
+        removeFile: 'حذف',
+      },
+
+      validation: {
+        nameRequired: 'الاسم الكامل مطلوب ويجب ألا يقل عن 3 أحرف.',
+        phoneRequired: 'يرجى إدخال رقم هاتف دولي صحيح.',
+        emailRequired: 'يرجى إدخال بريد إلكتروني صالح.',
+        genderRequired: 'يرجى تحديد الجنس.',
+        dobRequired: 'تاريخ الميلاد مطلوب.',
+        nationalityRequired: 'الجنسية مطلوبة.',
+        countryRequired: 'بلد الإقامة مطلوب.',
+        cityRequired: 'المدينة مطلوبة.',
+        passportRequired: 'رقم جواز السفر مطلوب.',
+        passportExpiryRequired: 'يرجى إدخال تاريخ انتهاء ساري المفعول للجواز.',
+        serviceRequired: 'يرجى اختيار نوع الخدمة.',
+        destinationRequired: 'دولة الوجهة مطلوبة.',
+        departureRequired: 'تاريخ المغادرة يجب أن يكون اليوم أو في المستقبل.',
+        returnAfterDeparture: 'تاريخ العودة يجب أن يكون بعد تاريخ المغادرة.',
+        fileFormatError: 'صيغة الملف غير مدعومة. يسمح فقط بملفات PDF و JPG و PNG.',
+        fileSizeError: 'حجم الملف يتجاوز الحد المسموح به (20 ميغابايت).',
+      },
+
+      submitting: 'جارٍ إرسال طلبك بأمان وتشفير...',
+      submitBtn: 'إرسال طلب السفر',
+      noPaymentNotice: 'ملاحظة: لا تتم أية عمليات دفع عبر الموقع. سيتولى مستشار السفر المخصص مراجعة طلبك والتواصل معك مباشرة.',
+    },
+
+    successModal: {
+      title: 'تم إرسال طلبك بنجاح!',
+      thankYou: 'شكراً لاختيارك وكالة بلعد للسفريات والسياحة.',
+      message: 'تم استلام طلبك وتسجيله تلقائياً في نظام إدارة السفر (CRM). تم إشعار مستشار السفر المختص وسيقوم بالتواصل معك عبر الهاتف أو الواتساب أو البريد الإلكتروني في أقرب وقت.',
+      requestIdLabel: 'رقم مرجع الطلب (Request ID):',
+      serviceLabel: 'الخدمة المطلوبة:',
+      dateLabel: 'تاريخ التقديم:',
+      customerLabel: 'اسم مقدم الطلب:',
+      printBtn: 'طباعة / حفظ الإيصال',
+      trackBtn: 'تتبع حالة الطلب مباشرة',
+      doneBtn: 'العودة للرئيسية',
+      emailNotice: 'تم إرسال رسالة تأكيد إلكترونية تحتوي على رقم الطلب وتفاصيله.',
+    },
+
+    trackPortal: {
+      title: 'متابعة طلب السفر',
+      subtitle: 'تحقق من الحالة اللحظية، الجدول الزمني، ورسائل المستشار المخصص لطلبك.',
+      idPlaceholder: 'أدخل رقم الطلب (مثال: BTA-2026-1049)',
+      emailPlaceholder: 'أدخل البريد الإلكتروني أو الهاتف المسجل',
+      trackBtn: 'بحث ومتابعة',
+      notFoundTitle: 'لم يتم العثور على الطلب',
+      notFoundMsg: 'لم نتمكن من العثور على طلب مطابق للبيانات المدخلة. يرجى التأكد من رقم الطلب أو التواصل مع الدعم.',
+      
+      detailsTitle: 'تفاصيل الطلب والحالة الحالية',
+      statusLabel: 'الحالة الحالية',
+      assignedAgentLabel: 'المستشار المخصص لطلبك',
+      unassignedNotice: 'قيد المراجعة لدى الإدارة',
+      timelineTitle: 'سجل نشاط ومراحل الطلب',
+      chatTitle: 'محادثة مباشرة مع المستشار',
+      chatPlaceholder: 'اكتب رسالة لمستشار السفر المسؤول عن طلبك...',
+      sendMsgBtn: 'إرسال',
+      emptyChat: 'لا توجد رسائل بعد. أرسل رسالة للحصول على تحديثات فورية.',
+    },
+
+    aboutUs: {
+      tagline: 'مسيرتنا ورؤيتنا',
+      title: 'عن وكالة بلعد للسفريات',
+      intro1: 'وكالة بلعد للسفريات هي وكالة رائدة متكاملة في خدمات السفر والاستشارات السياحية ومقرها الرئيسي في الصومال، وتقدم خدماتها لعملائها في منطقة القرن الإفريقي، والشرق الأوسط، والجاليات حول العالم.',
+      intro2: 'تأسست الوكالة على أسس النزاهة والاحترافية والشفافية التامة، لتقديم خدمات حجز الطيران، استخراج التأشيرات المعقدة، رحلات الحج والعمرة، والإقامة الفاخرة.',
+      
+      missionTitle: 'رسالتنا',
+      missionDesc: 'تقديم خدمات سفر وتأشيرات موثوقة وسريعة وآمنة وفق أعلى المعايير العالمية، لمنح مسافرينا الراحة التامة في كل خطوة.',
+      
+      visionTitle: 'رؤيتنا',
+      visionDesc: 'أن نكون الخيار الأول والأكثر ثقة في خدمات السفر والسياحة في شرق إفريقيا والمنطقة.',
+      
+      valuesTitle: 'قيمنا الجوهرية',
+      values: [
+        { name: 'النزاهة (Integrity)', desc: 'الصدق والأمانة المطلقة في كافة معاملاتنا.' },
+        { name: 'الثقة (Trust)', desc: 'بناء علاقات طويلة الأمد مع عملائنا وشركائنا.' },
+        { name: 'المهنية (Professionalism)', desc: 'التزام دقيق بأعلى معايير الجودة والاتقان.' },
+        { name: 'رضا العملاء', desc: 'وضع راحة المسافر واحتياجاته في مقدمة أولوياتنا.' },
+        { name: 'الابتكار (Innovation)', desc: 'توظيف التقنيات الحديثة لتيسير تجربة السفر.' },
+        { name: 'الشفافية (Transparency)', desc: 'وضوح تام في الإجراءات والمواعيد.' },
+        { name: 'الموثوقية (Reliability)', desc: 'حلول سفر ثابتة ودقيقة يعتمد عليها دائماً.' },
+      ]
+    },
+
+    testimonials: {
+      tagline: 'تجارب عملائنا',
+      title: 'ماذا يقول عملاؤنا عنا؟',
+      description: 'اكتشف كيف ساهمت وكالة بلعد في تيسير رحلات آلاف المسافرين حول العالم.',
+    },
+
+    gallery: {
+      tagline: 'معرض الصور',
+      title: 'معرض الرحلات والوجهات',
+      description: 'شاهد لقطات من خدمات الطيران، المشاعر المقدسة، الفنادق الفاخرة، والوجهات السياحية العالمية.',
+      categories: {
+        all: 'جميع الصور',
+        flights: 'الطيران والرحلات الجوية',
+        hotels: 'الفنادق الفاخرة',
+        tour_packages: 'الباقات السياحية',
+        pilgrimage: 'رحلات الحج والعمرة',
+        tourist_destinations: 'وجهات سياحية عالمية',
+        travel_experiences: 'تجارب المسافرين',
+      }
+    },
+
+    faq: {
+      tagline: 'هل لديك استفسار؟',
+      title: 'الأسئلة الأكثر شيوعاً',
+      description: 'إجابات واضحة ومباشرة عن التأشيرات، الحجوزات، سياسة الدفع، والمستندات المطلوبة.',
+      searchPlaceholder: 'ابحث في الأسئلة والإجابات...',
+      all: 'جميع الأسئلة',
+      visa: 'استفسارات التأشيرات',
+      flights: 'حجوزات الطيران',
+      pilgrimage: 'الحج والعمرة',
+      hotels: 'الفنادق والإقامة',
+      documents: 'المستندات وسياسة الدفع',
+    },
+
+    contact: {
+      tagline: 'نحن دائماً في خدمتكم',
+      title: 'تواصل مع وكالة بلعد للسفريات',
+      description: 'هل لديك سؤال أو تحتاج لمساعدة سفر عاجلة؟ تواصل مع فريق خدمة العملاء المتخصص.',
+      companyName: 'وكالة بلعد للسفريات والسياحة',
+      phones: ['+252 61 2483838', '+252 61 2141414'],
+      email: 'balcadtravel@gmail.com',
+      address: 'مركز KM4 التجاري، شارع مكة المكرمة، مقديشو، الصومال (المقر الرئيسي)',
+      workingHours: 'السبت - الخميس: 8:00 صباحاً - 8:30 مساءً | الجمعة: 2:00 ظهراً - 8:30 مساءً',
+      emergencyTitle: 'خط الطوارئ على مدار 24 ساعة',
+      whatsappBtn: 'تواصل عبر واتساب مباشرة',
+      formTitle: 'أرسل لنا رسالة مباشرة',
+      formSubtitle: 'املأ هذا النموذج وسيتواصل معك مستشار السفر خلال ساعتين.',
+      nameLabel: 'الاسم الكامل',
+      emailLabel: 'البريد الإلكتروني',
+      phoneLabel: 'رقم الهاتف',
+      subjectLabel: 'الموضوع',
+      messageLabel: 'نص الرسالة',
+      messagePlaceholder: 'كيف يمكننا مساعدتك في ترتيبات سفرك اليوم؟',
+      sendBtn: 'إرسال الرسالة',
+      sentSuccess: 'تم إرسال رسالتك بنجاح! سيقوم فريقنا بالتواصل معك قريباً.',
+    },
+
+    cta: {
+      title: 'هل أنت مستعد لرحلتك القادمة؟',
+      description: 'سواء كنت بحاجة لتأشيرة عاجلة، تذكرة طيران، أو باقة عمرة ميسرة، مستشارونا في انتظارك.',
+      requestBtn: 'تقديم طلب خدمة',
+      contactBtn: 'تحدث مع مستشار سفر',
+    },
+
+    footer: {
+      desc: 'وكالة بلعد للسفريات والسياحة هي وكالة سفر معتمدة ورائدة تقدم خدمات حجز الطيران، استخراج التأشيرات، رحلات الحج والعمرة، والحلول السياحية الفاخرة.',
+      quickLinks: 'روابط سريعة',
+      servicesTitle: 'خدماتنا',
+      contactTitle: 'معلومات الاتصال',
+      newsletterTitle: 'نشرة السفر والتحديثات',
+      newsletterDesc: 'اشترك لتصلك تحديثات لوائح السفر والتأشيرات والعروض الموسمية.',
+      emailPlaceholder: 'أدخل بريدك الإلكتروني',
+      subscribeBtn: 'اشتراك',
+      subscribedMsg: 'شكراً لاشتراكك في تحديثات وكالة بلعد للسفريات!',
+      allRights: 'جميع الحقوق محفوظة. وكالة بلعد للسفريات والسياحة.',
+      privacy: 'سياسة الخصوصية',
+      terms: 'شروط الخدمة',
+      security: 'الأمان والامتثال',
+    },
+
+    search: {
+      title: 'البحث الشامل',
+      placeholder: 'ابحث عن التأشيرات، رحلات الطيران، الحج والعمرة، الأسئلة الشائعة...',
+      noResults: 'لم يتم العثور على نتائج مطابقة لبحثك.',
+      servicesFound: 'الخدمات المتاحة',
+      faqsFound: 'الأسئلة الشائعة',
+      quickLinks: 'روابط مهمة',
+    },
+
+    toast: {
+      requestSuccess: 'تم تقديم طلب السفر بنجاح!',
+      fileUploaded: 'تم رفع المستند بنجاح.',
+      fileRemoved: 'تم حذف المستند.',
+      contactSuccess: 'تم استلام رسالتك. سنتواصل معك في أقرب وقت.',
+      searchOpened: 'البحث جاهز.',
+    }
+  }
+};

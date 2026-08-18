@@ -1,0 +1,6 @@
+{
+  "name": "Balcad Travel Agency",
+  "description": "Official luxury customer-facing website for Balcad Travel Agency. Multilingual (English, Somali, Arabic) portal for flight bookings, visa processing, Hajj & Umrah, hotels, car rentals, and luxury travel inquiries with real-time REST API integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
